@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { HostVanDetailsContext } from "../../Components/HostVanDetailsLayout"
 
 export default function HostVanDetailsPhotos(){
@@ -7,7 +7,7 @@ export default function HostVanDetailsPhotos(){
 
     return (
         <p>
-            <img className = "van-image" src = {hostVan.imageUrl} />
+            <img className = "van-image" src = {hostVan.imageUrl} alt = "image of van" />
         </p>
     )
 }
