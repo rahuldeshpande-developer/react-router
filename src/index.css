@@ -31,3 +31,12 @@ nav > a {
 li > a:hover {
   background-color: #111;
 }
+
+.vans-content {
+  padding-left: 20px;
+}
+.van-image {
+  height: 300;
+  width: 300px;
+  border-radius: 10px;
+}
